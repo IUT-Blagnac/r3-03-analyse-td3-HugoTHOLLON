@@ -14,4 +14,11 @@ public class AppTest
     public void testHelloEmptyParameter() {
         assertEquals("Hello World!", Main.hello());
     }
+
+    /**
+     * Test the return with a parameter
+     */
+    public void testHelloParameter() {
+        assertEquals("Hello Hugo!", Main.hello("Hello Hugo!"));
+    }
 }
